@@ -144,6 +144,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.btnBack1:
                 layout2.setVisibility(View.GONE);
+                layoutMain.setVisibility(View.VISIBLE);
                 break;
             case R.id.btnBack2:
                 layout3.setVisibility(View.GONE);
